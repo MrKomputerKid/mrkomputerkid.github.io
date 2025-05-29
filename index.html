@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Craig Wessel | Systems Administrator</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-6Up6wZnF4tEcsFZyMgE7kHfS6BHRrAt47xQ5G2FqFv2uAkTVP7jYKr2z+41IMuU0L1SHJ8CNQ9kHIVcm6cXWxw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+    }
+    header p {
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+    section h2 {
+      font-size: 1.6rem;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      color: #007acc;
+    }
+
+    ul.skills {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    ul.skills li {
+      background-color: #007acc;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    ul.highlights {
+      list-style-type: disc;
+      margin-left: 20px;
+      color: #333;
+      padding-left: 10px;
+    }
+
+    ul.highlights li {
+      margin-bottom: 12px;
+      line-height: 1.5;
+      font-size: 1rem;
+    }
+
+    .contact-info {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .social-buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-buttons a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .social-buttons a.linkedin {
+      background-color: #0077b5;
+    }
+
+    .social-buttons a.github {
+      background-color: #333;
+    }
+
+    .social-buttons a:hover {
+      opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px 20px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.3rem;
+      }
+      ul.skills {
+        justify-content: center;
+      }
+      .social-buttons {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+
+    /* Additional styling for header image layout */
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .header-content .text-info {
+      flex: 1;
+    }
+
+    .profile-image img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 600px) {
+      .header-content {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+      }
+
+      .profile-image img {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <div class="text-info">
+          <h1>Craig James Wessel</h1>
+          <p>Systems Administrator | Bend, Oregon | Security, Hardware & Networking Specialist</p>
+        </div>
+        <div class="profile-image">
+          <img src="profile.jpg" alt="Craig Wessel headshot" />
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>Hey there! I'm Craig, an experienced Systems Administrator focused on enterprise security, hardware management, and network infrastructure. I have a proven track record in maintaining robust, scalable IT environments that prioritize uptime and security.</p>
+    </section>
+
+    <section>
+      <h2>Formal Education, Certifications, and Training</h2>
+      <ul class="skills">
+           <li>CompTIA A+</li>
+           <li>CompTIA Network+</li>
+           <li>CompTIA Security+</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+      <ul class="skills">
+        <li>Network Security</li>
+        <li>Firewall & VPN Management</li>
+        <li>Server & Hardware Maintenance</li>
+        <li>Active Directory</li>
+        <li>System Monitoring</li>
+        <li>Backup & Disaster Recovery</li>
+        <li>Virtualization</li>
+        <li>Cloud Infrastructure</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Awards and Accolades</h2>
+      <ul class="highlights">
+        <li>Identified, Quarantined, and Removed malicious DNS hijacking software from 3 computers on a corporate network, including the CFO computer.</li>
+        <li>Anticipated unstated managerial requirements during a major IT migration.</li>
+        <li>Together with my manager, successfully migrated an Exchange 2010 instance to MS365.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Professional Development in the Community</h2>
+      <ul class="highlights">
+        <li>Former co-organizer of <a href="https://deschutestechguild.com" target="_blank">Deschutes Tech Guild</a> a meetup group for technologists, IT professionals, developers, and tech enthusiasts, based in Central Oregon.</li>
+        <li>Former board member and IT director at <a href="https://sistersunifiedliving.org" target="_blank">Sisters Opportunities for Unified Living</a> a registered 501(c)3 that is working for workforce housing for workers with physical or intellectual disabilites in the community of Sisters, Oregon.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p class="contact-info">
+        Email: <a href="mailto:craigwessel9@gmail.com">craigwessel9@gmail.com</a>
+      </p>
+      <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/craig-wessel-9b2a6a310/" class="linkedin" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/MrKomputerKid/" class="github" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
